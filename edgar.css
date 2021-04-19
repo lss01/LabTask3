@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+    color: black;
+    font-size: large;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: beige;
+}
+
+.copy{
+    background-color: rgba(240, 255, 255, 0.63);
+    height: 20px;
+    color: black;
+    width: 820px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    background-color: rgb(0, 81, 83);
+    padding: 25px;
+    height: 40px;
+    width: 770px;
+}
+
+.link{
+    background-color: rgba(240, 255, 255, 0.63);
+    padding: 10px;
+    height: 20px;
+    width: 800px;
+}
+
+body{
+    background-color: rgba(0, 115, 121, 0.897);
+    color: aliceblue;
+}
+
+.content td{
+    background-color: rgba(98, 144, 146, 0.767);
+    padding-right: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+
+
+.name{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.e{
+    width: 90px;
+    flex-basis: 40%
+}
+
+p{
+    text-align: justify;
+    margin-top: -14px;
+}
+
+.name{
+    padding-left: 100px;
+}
+
+.poe{
+    font-weight: bold;
+    text-align: justify;
+}
+
+.email{
+    color: bisque;
+    font-size: medium;
+}
+
+.com{
+    font-weight: bold;
+}
+
+.s{
+    margin: 20px;
+    margin-top: -10px;
+    list-style: circle;
+}
